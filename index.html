@@ -4,21 +4,93 @@
             <meta name = "author" content = "Andres Silva">
             <meta name = "description" content = "Esta pagina web debe servir como un pagina web personal para la clase desarrollo con tecnologias web de la universidad de los Andes, sin embargo esta pagina tambien deberia reflejar las capacidades del autor como programador web ademas de dar informacion sobre el">
             <meta charset="utf-8">
-            <title>Andres Silva</title>
+            <title>Andrés Silva</title>
         </head>
         <body>
             <header>
                 <h1>Andrés Silva</h1>
-                
+                <img src="images/header.jpg" alt = "photo of Andres Silva owner of this page" title = "Andrés Silva, co-founder at Bolsiyo" width="450" height="600">
             </header>
             <nav>
-
+                <ul>
+                    <li><a href ="#home">Home</a></li>
+                    <li><a href = "#bio">Vida</a></li>
+                    <li><a href = "#educacion">Formacion</a></li>
+                    <li><a href = "#interes">Intereses</a></li>
+                    <li><a href = "#contacto">Contacto</a></li>
+                </ul>
             </nav>
             <main>
+                <section id="home">
+                    <h2>Bienvenidos</h2>
+                    <p>En esta pagina podran encontrar informacion personal de mi</p>
+                </section>
+                <section id="bio">
+                    <h2>Datos biograficos</h2>
+                    <table>
+                        <tr>
+                            <td>Fecha de nacimiento</td>
+                            <td>26 de Noviembre</td>
+                        </tr>
+                        <tr>
+                            <td>Nombre completo</td>
+                            <td>Andrés Silva Gómez</td>
+                        </tr>
+                        <tr>
+                            <td>Sexo</td>
+                            <td>Masculino</td>
+                        </tr>
+                        <tr>
+                            <td>RH</td>
+                            <td>O+</td>
+                        </tr>
+                    </table>
+                </section>
+                <section id="educacion">
+                    <h2>Datos academicos</h2>
+                    <dl>
+                        <dt>Bachiderato</dt>
+                        <dd>Clase del 2016, High School Diploma y Bachiderato</dd>
+                        <dt>Ingenieria de sistemas y computacion</dt>
+                        <dd>Universidad de los Andes, Octubre 2021</dd>
+                        <dt>Ingenieria Industrial</dt>
+                        <dd>Universidad de los Andes, Octubre 2021</dd>
+                    </dl>
+                </section>
+                <section id = "interes">
+                    <h2>Sitios de interes</h2>
+                    <p>Un video que habla de P vs. NP, de lo que sera mi tesis de Ingenieria de sistemas</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YX40hbAHx3s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>En este <a href=https://github.com/andresilva1997>enlace</a> podra encontrar mi github</p>
+                    <p>Una imagen de lo que todos los programadores somos victimas</p>
+                    <img src="https://img.devrant.com/devrant/rant/r_1362971_nWDmp.jpg">
+                </section>
+                <section id="contacto">
+                    <h2>Contacto</h2>
+                    <form action = "/respuestasContacto" method = "POST">
+                        <ul>
+                            <li>
+                                <label for = "name">Nombre:</label>
+                                <input type = "text" id = "name" name = "user_name">
+                            </li>
+                            <li>
+                                <label for = "mail">Correo:</label>
+                                <input type = "email" id = "mail" name = "user_email">
+                            </li>
+                            <li>
+                                <label for = "msg">Mensaje:</label>
+                                <textarea id = "msg" name = "user_message"></textarea>
+                            </li>
+                            <li class="button">
+                                <button type="submit">Enviar</button>
+                            </li>
+                        </ul>
 
+                    </form>
+                </section>
             </main>
             <footer>
-
+                <a href="https://www.linkedin.com/in/andres-silva-85116a13a/">linkedIn</a>
             </footer>
         </body>
 
