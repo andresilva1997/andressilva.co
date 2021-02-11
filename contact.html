@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta name = "author" content = "Andres Silva">
+            <meta name = "description" content = "Esta pagina web debe servir como un pagina web personal para la clase desarrollo con tecnologias web de la universidad de los Andes, sin embargo esta pagina tambien deberia reflejar las capacidades del autor como programador web ademas de dar informacion sobre el">
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="style.css">
+            <title>Andrés Silva</title>
+        </head>
+        <body>
+          <nav class="navbar navbar-expands-lg">
+            <div class="container-fluid">
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href ="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href = "proyects.html">Proyects</a></li>
+                    <li class="nav-item"><a class="nav-link" href = "cv.html">CV</a></li>
+                    <li class="nav-item"><a class="nav-link" href = "contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+        <main>
+            <section>
+                <h2>Contact</h2>
+                <form action = "/respuestasContacto" method = "POST">
+                    <ul>
+                        <li>
+                            <label for = "name">Name:</label>
+                            <input type = "text" id = "name" name = "user_name">
+                        </li>
+                        <li>
+                            <label for = "mail">Mail:</label>
+                            <input type = "email" id = "mail" name = "user_email">
+                        </li>
+                        <li>
+                            <label for = "msg">Message:</label>
+                            <textarea id = "msg" name = "user_message"></textarea>
+                        </li>
+                        <li class="button">
+                            <button type="submit">Send</button>
+                        </li>
+                    </ul>
+
+                </form>
+            </section>
+        </main>
+        <footer>
+            <a href="https://www.linkedin.com/in/andres-silva-85116a13a/" class="fa fa-linkedin" target="_blank"></a>
+            <a href="https://github.com/andresilva1997" class="fa fa-github" target="_blank"></a>
+
+        </footer>
+    </html>
