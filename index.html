@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html>
+    <html><!--Falta indicar el lenguaje de la página-->
         <head>
             <meta name = "author" content = "Andres Silva">
             <meta name = "description" content = "Esta pagina web debe servir como un pagina web personal para la clase desarrollo con tecnologias web de la universidad de los Andes, sin embargo esta pagina tambien deberia reflejar las capacidades del autor como programador web ademas de dar informacion sobre el">
@@ -11,7 +11,7 @@
         </head>
         <body>
             <nav class="navbar navbar-expands-lg">
-                <div class="container-fluid">
+                <div class="container-fluid"><!--Todos los elementos en bootstrap deberían ir dentro de un container, es decir, si vas a crear un nav lo pones dentro. No el container dentro del nav-->
                     <ul class="nav">
                         <li class="nav-item"><a class="nav-link" href ="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href = "proyects.html">Proyects</a></li>
@@ -19,11 +19,9 @@
                         <li class="nav-item"><a class="nav-link" href = "contact.html">Contact</a></li>
                     </ul>
                 </div>
-                
             </nav>
             <header>
                 <div class="header">
-                   
                     <h1>Andrés Silva</h1>
                     <img class = image-1 src="images/bolsiyo.png" alt = "Bolsiyo logo, the Company to which I am CTO" title = "Bolsiyo Logo">
                     <p>Welcome to my web page</p>
@@ -32,7 +30,7 @@
             </header>
             
             <main>
-                <section id="home">
+                <section id="home"><!--Todas las secciones deben tener un título. Sino no lo crees necesario puedes poner div en vez de section-->
                     <p>This is my personal webpage where you can find information about me</p>
                     <img src="images/header.jpg" alt = "photo of Andres Silva owner of this page" title = "Andrés Silva, co-founder at Bolsiyo" width="450" height="600">
                 </section>
@@ -71,10 +69,11 @@
                 <section id = "interes">
                     <h2>Intresting video</h2>
                     <p>My thesis is about the following topic</p>
+                    <!--El atributo frameborder no es válido en HTML5-->
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/YX40hbAHx3s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <p>In the following <a href=https://github.com/andresilva1997>link</a> you can find my github</p>
                     <p>A funny meme of ur biggest problem as programmers</p>
-                    <img src="https://img.devrant.com/devrant/rant/r_1362971_nWDmp.jpg">
+                    <img src="https://img.devrant.com/devrant/rant/r_1362971_nWDmp.jpg"><!--Falta el atributo alt-->
                 </section>
                 
             </main>

@@ -11,7 +11,7 @@ html *{
     text-decoration: none;
     margin: 5px 2px;
   }
-  
+
   .fa:hover {
       opacity: 0.7;
   }
@@ -55,3 +55,5 @@ div{
 .image-1{
   background:transparent;
 }
+
+/**Corrección en general: Falta indentar*/
