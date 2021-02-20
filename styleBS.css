@@ -1,0 +1,24 @@
+
+.contenido{
+    background-color:rgba(139, 129, 129, 0.938);
+    height:100px
+}
+.azul{
+    background-color: blue;
+    
+}
+.rojo{
+    background-color: red;
+}
+
+.row-footer, .top-menu{
+    background-color: brown;
+}
+
+.row-banner{
+    background-color: darkred;
+}
+
+.left-menu{
+    background-color: orange;
+}
