@@ -4,17 +4,18 @@ html * {
   color: white;
 }
 .fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
 
-.fa:hover {
-  opacity: 0.7;
-}
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
 
 .fa-linkedin {
   background: #007bb5;
@@ -51,10 +52,9 @@ div {
   margin: 5px 2px;
 }
 
-.image-1 {
-  background: transparent;
+.image-1{
+  background:transparent;
 }
 
-/* Indentantion formating */
-/* Try to add a different style to differentiate sections in the webpage. For example, the navbar could be of a different color. */
-/* Using a default padding for all your sections would made your webpage more readable */
+/**Corrección en general: Falta indentar*/
+
